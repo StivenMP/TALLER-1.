@@ -5,7 +5,7 @@
 <div class="container my-5 text-light">
   <div class="row align-items-center mb-5">
     <div class="col-lg-6 text-center text-lg-start">
-      <h2>Bienvenido</h2>
+      <h2 class="badge bg-primary mb-3 px-3 py-2">Bienvenido</h2>
       <h1 class="fw-bold mb-3">Tu tienda de carros de confianza</h1>
       <p class="text-light-50 mb-4">
         En nuestra tienda encontrarás la mejor selección de autos usados y nuevos. 
