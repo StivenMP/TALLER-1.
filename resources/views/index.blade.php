@@ -5,16 +5,12 @@
 <div class="container my-5 text-light">
   <div class="row align-items-center mb-5">
     <div class="col-lg-6 text-center text-lg-start">
-      <span class="badge bg-primary mb-3 px-3 py-2">Bienvenido</span>
+      <h2>Bienvenido</h2>
       <h1 class="fw-bold mb-3">Tu tienda de carros de confianza</h1>
       <p class="text-light-50 mb-4">
         En nuestra tienda encontrarás la mejor selección de autos usados y nuevos. 
         Precios justos, financiación y garantía para que tu compra sea segura y sin complicaciones.
       </p>
-      <div class="d-flex gap-3 justify-content-center justify-content-lg-start">
-        <a href="#" class="btn btn-primary">Conócenos</a>
-        <a href="#" class="btn btn-outline-light">Contáctanos</a>
-      </div>
     </div>
     <div class="col-lg-6 mt-4 mt-lg-0">
       <div class="card bg-dark text-light shadow border-0">
