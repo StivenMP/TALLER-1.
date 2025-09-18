@@ -1,68 +1,67 @@
 @extends('layouts.app')
 @section('title','Inicio')
 @section('content')
-<div class="container my-5">
-  <div class="row text-center">
-    <div class="col-md-4 mb-4">
-      <div class="card h-100 shadow-sm border-0">
-        <img src="https://p4.wallpaperbetter.com/wallpaper/659/473/256/not-sure-white-sports-car-wallpaper-preview.jpg" 
-             class="card-img-top" 
-             alt="Carro Deportivo"
-             style="height: 220px; object-fit: cover; border-top-left-radius: 1rem; border-top-right-radius: 1rem;">
-        <div class="card-body d-flex flex-column">
-          <h5 class="card-title fw-bold">Carro Deportivo</h5>
-          <p class="card-text">Un carro veloz con diseño moderno, ideal para quienes buscan adrenalina y estilo.</p>
-          <a href="#" class="btn btn-primary mt-auto w-100">🚀 Comprar</a>
-        </div>
+
+<div class="container my-5 text-light">
+  <div class="row align-items-center mb-5">
+    <div class="col-lg-6 text-center text-lg-start">
+      <span class="badge bg-primary mb-3 px-3 py-2">Bienvenido</span>
+      <h1 class="fw-bold mb-3">Tu tienda de carros de confianza</h1>
+      <p class="text-light-50 mb-4">
+        En nuestra tienda encontrarás la mejor selección de autos usados y nuevos. 
+        Precios justos, financiación y garantía para que tu compra sea segura y sin complicaciones.
+      </p>
+      <div class="d-flex gap-3 justify-content-center justify-content-lg-start">
+        <a href="#" class="btn btn-primary">Conócenos</a>
+        <a href="#" class="btn btn-outline-light">Contáctanos</a>
       </div>
     </div>
-
-    <div class="col-md-4 mb-4">
-      <div class="card h-100 shadow-sm border-0">
-        <img src="https://cdn.prod.website-files.com/5ec85520c4dfff034b036be2/665e0831da52386a875ea59d_best-hybrid-suv_highlander.webp" 
-             class="card-img-top" 
-             alt="SUV Familiar"
-             style="height: 220px; object-fit: cover; border-top-left-radius: 1rem; border-top-right-radius: 1rem;">
-        <div class="card-body d-flex flex-column">
-          <h5 class="card-title fw-bold">SUV Familiar</h5>
-          <p class="card-text">Espacio y comodidad para toda la familia, perfecto para viajes largos.</p>
-          <a href="#" class="btn btn-primary mt-auto w-100">🚗 Comprar</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-4 mb-4">
-      <div class="card h-100 shadow-sm border-0">
-        <img src="https://i.blogs.es/707e5c/audi-e-tron/650_1200.jpg" 
-             class="card-img-top" 
-             alt="Carro Eléctrico"
-             style="height: 220px; object-fit: cover; border-top-left-radius: 1rem; border-top-right-radius: 1rem;">
-        <div class="card-body d-flex flex-column">
-          <h5 class="card-title fw-bold">Carro Eléctrico</h5>
-          <p class="card-text">Tecnología limpia y eficiente, cuida el medio ambiente sin perder potencia.</p>
-          <a href="#" class="btn btn-primary mt-auto w-100">⚡ Comprar</a>
+    <div class="col-lg-6 mt-4 mt-lg-0">
+      <div class="card bg-dark text-light shadow border-0">
+        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=60" 
+             class="card-img-top rounded-top"
+             alt="Carro de inicio"
+             style="height: 260px; object-fit: cover;">
+        <div class="card-body text-center">
+          <h5 class="fw-bold mb-1">La mejor experiencia en compra y venta</h5>
+          <p class="text-secondary mb-0">Transparencia · Confianza · Seguridad</p>
         </div>
       </div>
     </div>
   </div>
+
+  <div class="row text-center">
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 bg-dark text-light shadow border-0">
+        <div class="card-body">
+          <h5 class="fw-bold">Variedad de modelos</h5>
+          <p class="text-secondary">Encuentra autos familiares, deportivos, compactos y SUV en un solo lugar.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 bg-dark text-light shadow border-0">
+        <div class="card-body">
+          <h5 class="fw-bold">Financiación fácil</h5>
+          <p class="text-secondary">Opciones de crédito rápidas y seguras para que estrenes carro sin preocupaciones.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 bg-dark text-light shadow border-0">
+        <div class="card-body">
+          <h5 class="fw-bold">Garantía real</h5>
+          <p class="text-secondary">Todos nuestros vehículos pasan por inspecciones técnicas y cuentan con garantía.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-center text-secondary py-4 mt-5 border-top border-secondary">
+    © 2025 · Tienda de Carros • SrSriv
+  </footer>
 </div>
 
-<style>
-  .card {
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    border-radius: 1rem;
-    background: #1e1e1e; /* fondo oscuro */
-    color: #f1f1f1;       /* texto claro */
-  }
-  .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 20px rgba(0,0,0,0.35);
-  }
-  .card-title {
-    color: #ffffff; /* títulos más blancos */
-  }
-  .card-text {
-    color: #dcdcdc; /* texto más claro */
-  }
-</style>
 @endsection

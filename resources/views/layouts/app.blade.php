@@ -73,8 +73,8 @@
     </button>
     <div class="collapse navbar-collapse" id="navCarros">
       <ul class="navbar-nav ms-auto me-3">
-        <li class="nav-item"><a class="nav-link fw-semibold" href="">Inicio</a></li>
-        <li class="nav-item"><a class="nav-link fw-semibold" href="">Catálogo de Carros</a></li> 
+        <li class="nav-item"><a class="nav-link fw-semibold" onclick="location.href='http://127.0.0.1:8000'">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link fw-semibold" onclick="location.href='http://127.0.0.1:8000/catalogo'">Catálogo de Carros</a></li> 
         <li class="nav-item"><a class="nav-link fw-semibold" href="">Formulario de Compra</a></li> 
       </ul>
 
